@@ -16,6 +16,7 @@ body {
   color: whitesmoke;
   background-color: #4c4c4c;
   background-size: cover;
+  min-height: 100vh;
 }
 
 nav {
@@ -37,4 +38,16 @@ nav li {
   background-color: #4c4c4c;
   background-size: cover;
   /* background-color: #292b2d */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 33.75px;
+  background: #6cf;
+}
+footer h3 {
+  padding-left: 45px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

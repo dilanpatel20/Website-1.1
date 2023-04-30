@@ -1,6 +1,8 @@
 //1rem && 1em == 16px
 //2rem && 2em == 32px
 //By default this is it unless you set a variable for it.
+// # is the class name for html id.
+// *tag id* is for everything associated with the tag. 
 
 p {
     line-height: 1.5em;
@@ -20,6 +22,8 @@ body {
     color: whitesmoke;
     background-color: #4c4c4c;
     background-size: cover;
+    min-height: 100vh;
+
 }
 
 nav {
@@ -46,3 +50,15 @@ nav {
     background-size: cover;
     /* background-color: #292b2d */
     }
+
+footer {
+    h3 {
+        padding-left: 45px;
+        text-align: center;
+    }
+        position: fixed; // The footer will be fixed at the bottom of the page.
+        bottom: 0; // Will be at the bottom, 0 pixels up from the bottom.
+        width: 100%;
+        height: 33.75px; // Height of the footer.
+        background: #6cf;
+}
