@@ -1,0 +1,40 @@
+p {
+  line-height: 1.5em;
+  background-color: red;
+}
+
+#content {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  background-color: #4c4c4c;
+  background-size: cover;
+}
+
+nav {
+  background-color: #292b2d;
+  font-size: 1.5em;
+}
+nav a:visited {
+  color: red;
+  background-color: transparent;
+}
+nav a:hover {
+  background-color: aquamarine;
+}
+nav li {
+  padding-left: 25px;
+}
+
+#backgroundForHome {
+  background-color: #4c4c4c;
+  background-size: cover;
+  /* background-color: #292b2d */
+}/*# sourceMappingURL=main.css.map */
