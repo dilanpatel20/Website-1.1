@@ -52,13 +52,18 @@ nav {
     }
 
 footer {
-    h3 {
-        padding-left: 45px;
-        text-align: center;
-    }
-        position: fixed; // The footer will be fixed at the bottom of the page.
-        bottom: 0; // Will be at the bottom, 0 pixels up from the bottom.
-        width: 100%;
-        height: 33.75px; // Height of the footer.
-        background: #6cf;
+    padding-left: 45px;
+    position: fixed; // The footer will be fixed at the bottom of the page.
+    bottom: 0; // Will be at the bottom, 0 pixels up from the bottom.
+    width: 100%;
+    height: 33.75px; // Height of the footer.
+    background: #6cf;
+    text-align: center;
+}
+
+#socialMedia { // for the social media icons
+        width: 25px;
+        height: 25px;
+        justify-content: center;
+    
 }
