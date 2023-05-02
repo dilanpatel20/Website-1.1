@@ -1,8 +1,8 @@
 //1rem && 1em == 16px
 //2rem && 2em == 32px
 //By default this is it unless you set a variable for it.
-// # is the class name for html id.
-// *tag id* is for everything associated with the tag. 
+// .*class sname* is the class name for html class.
+// #*tag id* is for everything associated with the tag. 
 
 p {
     line-height: 1.5em;
@@ -45,7 +45,7 @@ nav {
      }
 }
 
-#backgroundForHome {
+.backgroundForHome {
     background-color: #4c4c4c;
     background-size: cover;
     /* background-color: #292b2d */
@@ -61,7 +61,7 @@ footer {
     text-align: center;
 }
 
-#socialMedia { // for the social media icons
+.socialMedia { // for the social media icons
         width: 25px;
         height: 25px;
         justify-content: center;

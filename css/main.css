@@ -34,7 +34,7 @@ nav li {
   padding-left: 25px;
 }
 
-#backgroundForHome {
+.backgroundForHome {
   background-color: #4c4c4c;
   background-size: cover;
   /* background-color: #292b2d */
@@ -50,7 +50,7 @@ footer {
   text-align: center;
 }
 
-#socialMedia {
+.socialMedia {
   width: 25px;
   height: 25px;
   justify-content: center;
