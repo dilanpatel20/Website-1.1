@@ -1,8 +1,8 @@
 //1rem && 1em == 16px
 //2rem && 2em == 32px
 //By default this is it unless you set a variable for it.
-// .*class sname* is the class name for html class.
-// #*tag id* is for everything associated with the tag. 
+// .*class name* is the class name for html class. Used when there are multiple items that are same on a page.
+// #id 's are used when an element appears once on a page or is a unique element.
 
 p {
     line-height: 1.5em;
